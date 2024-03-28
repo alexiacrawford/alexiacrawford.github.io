@@ -7,11 +7,11 @@ baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "alexiacrawford.github.io"
 author:
 street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
+city: San Francisco
+state: CA
+zip_code: 94127
 country: United States of America
-phone: (716) 555-5555
+phone: (415) 713-6601
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"

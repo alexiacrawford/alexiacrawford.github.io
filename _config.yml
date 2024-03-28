@@ -3,9 +3,9 @@ title: Alexia Crawford
 subtitle: looking for an internship
 email: alexia.crawford@gmail.com
 description: My website to get to know me and some of the things I have worked on. It is still a work in progress, so please bear with me!
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-# url: "alexiacrawford.github.io"
-author:
+# baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+url: "alexiacrawford.github.io"
+# author:
 city: San Francisco
 state: CA
 country: United States of America

@@ -21,7 +21,7 @@ nav-menu: true
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Courses</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<p>Descriptions of courses at the University of Oregon that I have completed. All descriptions are taken from the UO course catalog: https://catalog.uoregon.edu/courses/crs-cs/</p>
 	</div>
 	<div class="6u$ 12u$(small)">
 		<h3>Work</h3>
@@ -30,27 +30,27 @@ nav-menu: true
 	<!-- Break -->
 	<div class="4u 12u$(medium)">
 		<h3>CS 122</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<p>"Computational problem solving, algorithm design, data structures, and programming using a multi-paradigm programming language. Introduces techniques for program design, testing, and debuggin."</p>
 	</div>
 	<div class="4u 12u$(medium)">
 		<h3>CS 210</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<p>"Basic concepts and practices of computer science. Topics include algorithmic problem solving, levels of abstraction, object-oriented design and programming, software organization, analysis of algorithm and data structures. Sequence with CS 211, CS 212."</p>
 	</div>
 	<div class="4u$ 12u$(medium)">
 		<h3>CS 211</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<p>"Basic concepts and practices of computer science. Topics include algorithmic problem solving, levels of abstraction, object-oriented design and programming, software organization, analysis of algorithm and data structures. Sequence with CS 210, CS 212."</p>
 	</div>
 	<div class="4u 12u$(medium)">
 		<h3>CS 212</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<p>"Basic concepts and practices of computer science. Topics include algorithmic problem solving, levels of abstraction, object-oriented design and programming, software organization, analysis of algorithm and data structures. Sequence with CS 210, CS 211."</p>
 	</div>
 	<div class="4u 12u$(medium)">
 		<h3>CS 313</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<p>"Design and analysis of data structures as means of engineering efficient software; attention to data abstraction and encapsulation. Lists, trees, heaps, stacks, queues, dictionaries, priority queues"</p>
 	</div>
 	<div class="4u 12u$(medium)">
 		<h3>CS 314</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<p>"Introduction to computer organization and instruction-set architecture -- digital logic design, binary arithmetic, design of central processing unit and memory, machine-level programming."</p>
 	</div>
 </div>
 

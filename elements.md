@@ -21,7 +21,7 @@ nav-menu: true
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Courses</h3>
-		<p>Descriptions of courses at the University of Oregon that I have completed. All descriptions are taken from the UO course catalog: https://catalog.uoregon.edu/courses/crs-cs/</p>
+		<p>Descriptions of courses at the University of Oregon that I have completed. All descriptions are taken from the UO course catalog: <a href="https://catalog.uoregon.edu/courses/crs-cs/" target="_blank">University of Oregon Course Catalog</a>.</p></p>
 	</div>
 	<div class="6u$ 12u$(small)">
 		<h3>Work</h3>
@@ -30,7 +30,7 @@ nav-menu: true
 	<!-- Break -->
 	<div class="4u 12u$(medium)">
 		<h3>CS 122</h3>
-		<p>"Computational problem solving, algorithm design, data structures, and programming using a multi-paradigm programming language. Introduces techniques for program design, testing, and debuggin."</p>
+		<p>"Computational problem solving, algorithm design, data structures, and programming using a multi-paradigm programming language. Introduces techniques for program design, testing, and debugging."</p>
 	</div>
 	<div class="4u 12u$(medium)">
 		<h3>CS 210</h3>

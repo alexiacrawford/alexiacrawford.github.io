@@ -21,7 +21,7 @@ nav-menu: true
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Courses</h3>
-		<p>Descriptions of courses at the University of Oregon that I have completed. All descriptions are taken from the UO course catalog: <a href="https://catalog.uoregon.edu/courses/crs-cs/" target="_blank">University of Oregon Course Catalog</a>.</p></p>
+		<p>Descriptions of courses at the University of Oregon that I have completed. All descriptions are taken from the UO course catalog: <a href="https://catalog.uoregon.edu/courses/crs-cs/" target="_blank">University of Oregon Course Catalog</a>.</p>
 	</div>
 	<div class="6u$ 12u$(small)">
 		<h3>Work</h3>

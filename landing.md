@@ -19,12 +19,12 @@ nav-menu: true
   </div>
 </section>
 
-<!-- Two -->
+<!-- Two: Spotlight Projects -->
 <section id="two" class="spotlights">
 
-  <!-- PDF Spotlight Section FIRST -->
+  <!-- PDF Spotlight FIRST -->
   <section>
-    <a href="{{ '/assets/files/Technical_Report_Alexia_Crawford.pdf' | relative_url }}" class="image" target="_blank">
+    <a href="{{ '/assets/files/report/Technical_Report_Alexia_Crawford.pdf' | relative_url }}" class="image" target="_blank" rel="noopener noreferrer">
       <img src="{% link assets/images/pic11.jpg %}" alt="AI Report Cover" data-position="center center" />
     </a>
     <div class="content">
@@ -34,13 +34,13 @@ nav-menu: true
         </header>
         <p>This technical report explores how AI can be responsibly integrated into adolescent mental health care. Topics include clinical effectiveness, ethical risks, accessibility, and long-term potential.</p>
         <ul class="actions">
-          <li><a href="{{ '/assets/files/Technical_Report_Alexia_Crawford.pdf' | relative_url }}" class="button icon fa-file-pdf-o" target="_blank">View Report (PDF)</a></li>
+          <li><a href="{{ '/assets/files/report/Technical_Report_Alexia_Crawford.pdf' | relative_url }}" class="button icon fa-file-pdf-o" target="_blank" rel="noopener noreferrer">View Report (PDF)</a></li>
         </ul>
       </div>
     </div>
   </section>
 
-  <!-- Other original spotlight sections -->
+  <!-- Other Projects -->
   <section>
     <a href="generic.html" class="image">
       <img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />

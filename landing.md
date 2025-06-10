@@ -21,6 +21,26 @@ nav-menu: true
 
 <!-- Two -->
 <section id="two" class="spotlights">
+
+	<!-- PDF Spotlight Section FIRST -->
+	<section>
+		<a href="{{ '/assets/files/Technical_Report_Alexia_Crawford.pdf' | relative_url }}" class="image" target="_blank">
+			<img src="{% link assets/images/pic11.jpg %}" alt="AI Report Cover" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>AI in Mental Health – Technical Report</h3>
+				</header>
+				<p>This technical report explores how AI can be responsibly integrated into adolescent mental health care. Topics include clinical effectiveness, ethical risks, accessibility, and long-term potential.</p>
+				<ul class="actions">
+					<li><a href="{{ '/assets/files/Technical_Report_Alexia_Crawford.pdf' | relative_url }}" class="button icon fa-file-pdf-o" target="_blank">View Report (PDF)</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<!-- Original spotlight sections -->
 	<section>
 		<a href="generic.html" class="image">
 			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
@@ -65,24 +85,6 @@ nav-menu: true
 				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
 				<ul class="actions">
 					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-
-	<!-- PDF Spotlight Section -->
-	<section>
-		<a href="{{ '/assets/images/Technical%20Report%20-%20Alexia%20Crawford.pdf' | relative_url }}" class="image" target="_blank">
-			<img src="{% link assets/images/pic11.jpg %}" alt="Report Preview" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>AI in Mental Health – Technical Report</h3>
-				</header>
-				<p>This technical report explores the responsible use of artificial intelligence in adolescent mental health care. It addresses effectiveness, equity, and ethical challenges based on recent research and real-world tools like Woebot.</p>
-				<ul class="actions">
-					<li><a href="{{ '/assets/images/Technical_Report_Alexia_Crawford.pdf' | relative_url }}" class="button icon fa-file-pdf-o" target="_blank">View Report (PDF)</a></li>
 				</ul>
 			</div>
 		</div>

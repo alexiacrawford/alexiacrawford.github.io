@@ -14,7 +14,7 @@ nav-menu: true
 
   <!-- PDF Spotlight FIRST -->
   <section>
-    <a href="{{ '/assets/files/report/Technical_Report_Alexia_Crawford.pdf' | relative_url }}" class="image" target="_blank" rel="noopener noreferrer">
+    <a href="{{ '/assets/files/Technical_Report_Alexia_Crawford.pdf' | relative_url }}" class="image" target="_blank" rel="noopener noreferrer">
       <img src="{% link assets/images/pic11.jpg %}" alt="AI Report Cover" data-position="center center" />
     </a>
     <div class="content">

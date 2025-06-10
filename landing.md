@@ -24,7 +24,7 @@ nav-menu: true
         </header>
         <p>This technical report explores how AI can be responsibly integrated into adolescent mental health care. Topics include clinical effectiveness, ethical risks, accessibility, and long-term potential.</p>
         <ul class="actions">
-          <li><a href="{{ '/assets/files/report/Technical_Report_Alexia_Crawford.pdf' | relative_url }}" class="button icon fa-file-pdf-o" target="_blank" rel="noopener noreferrer">View Report (PDF)</a></li>
+          <li><a href="{{ '/assets/files/Technical_Report_Alexia_Crawford.pdf' | relative_url }}" class="button icon fa-file-pdf-o" target="_blank" rel="noopener noreferrer">View Report (PDF)</a></li>
         </ul>
       </div>
     </div>

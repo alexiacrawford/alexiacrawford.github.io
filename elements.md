@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My Work
+title: My School Courses
 image: assets/images/first_pic.jpeg
 nav-menu: true
 ---
@@ -16,8 +16,8 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<h2 id="content">Sample Content</h2>
-<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
+<h2 id="content">Introduction</h2>
+<p>This section will contain information about the courses I have taken at the University of Oregon. All the porjects I have done for this class can be found in the links below each class name. </p>
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Courses</h3>
@@ -31,6 +31,7 @@ nav-menu: true
 	<div class="4u 12u$(medium)">
 		<h3>CS 122</h3>
 		<p>"Computational problem solving, algorithm design, data structures, and programming using a multi-paradigm programming language. Introduces techniques for program design, testing, and debugging."</p>
+		<p><small><a href="https://github.com/alexiacrawford/CS-122" target="_blank">View Project</a></small></p>
 	</div>
 	<div class="4u 12u$(medium)">
 		<h3>CS 210</h3>

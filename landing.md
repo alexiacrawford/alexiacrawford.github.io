@@ -20,7 +20,7 @@ nav-menu: true
     <div class="content">
       <div class="inner">
         <header class="major">
-          <h3>AI in Mental Health – Technical Report</h3>
+          <h3>The Responsible Integration of AI in Mental Health Care - Technical Report</h3>
         </header>
         <p>This technical report explores how AI can be responsibly integrated into adolescent mental health care. Topics include clinical effectiveness, ethical risks, accessibility, and long-term potential.</p>
         <ul class="actions">

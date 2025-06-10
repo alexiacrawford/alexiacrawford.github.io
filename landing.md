@@ -69,6 +69,24 @@ nav-menu: true
 			</div>
 		</div>
 	</section>
+
+	<!-- PDF Spotlight Section -->
+	<section>
+		<a href="{{ '/assets/images/Technical%20Report%20-%20Alexia%20Crawford.pdf' | relative_url }}" class="image" target="_blank">
+			<img src="{% link assets/images/pic11.jpg %}" alt="Report Preview" data-position="center center" />
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>AI in Mental Health – Technical Report</h3>
+				</header>
+				<p>This technical report explores the responsible use of artificial intelligence in adolescent mental health care. It addresses effectiveness, equity, and ethical challenges based on recent research and real-world tools like Woebot.</p>
+				<ul class="actions">
+					<li><a href="{{ '/assets/images/Technical_Report_Alexia_Crawford.pdf' | relative_url }}" class="button icon fa-file-pdf-o" target="_blank">View Report (PDF)</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
 </section>
 
 <!-- Three -->

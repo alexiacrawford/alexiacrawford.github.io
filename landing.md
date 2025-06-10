@@ -9,18 +9,9 @@ nav-menu: true
 <!-- Main -->
 <div id="main">
 
-<!-- One -->
-<section id="one">
-  <div class="inner">
-    <header class="major">
-      <h2>Sed amet aliquam</h2>
-    </header>
-    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
-  </div>
-</section>
 
-<!-- Two: Spotlight Projects -->
-<section id="two" class="spotlights">
+<!-- One: Spotlight Projects -->
+<section id="one" class="spotlights">
 
   <!-- PDF Spotlight FIRST -->
   <section>
@@ -39,6 +30,16 @@ nav-menu: true
       </div>
     </div>
   </section>
+
+  <!-- Two -->
+<section id="two">
+  <div class="inner">
+    <header class="major">
+      <h2>Sed amet aliquam</h2>
+    </header>
+    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+  </div>
+</section>
 
   <!-- Other Projects -->
   <section>

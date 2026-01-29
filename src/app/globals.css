@@ -45,3 +45,12 @@ body {
   background-position: center;
 }
 
+/* Mobile: solid background; desktop keeps the gradient above */
+@media (max-width: 768px) {
+  body {
+    background: #5a55ae;
+    background-image: none;
+    background-blend-mode: normal;
+  }
+}
+

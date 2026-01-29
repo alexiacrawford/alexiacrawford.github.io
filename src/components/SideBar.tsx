@@ -8,7 +8,7 @@ export default function Sidebar() {
         <a href="https://github.com/alexiacrawford" target="_blank" rel="noopener noreferrer">
           <FaGithub className="text-xl text-gray-700 hover:text-black" />
         </a>
-        <a href="www.linkedin.com/in/alexia-crawford4" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/alexia-crawford4" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="text-xl text-gray-700 hover:text-blue-600" />
         </a>
         <a href="mailto:alexia.crawford@gmail.com">

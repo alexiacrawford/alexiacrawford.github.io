@@ -59,7 +59,7 @@ export default function Home() {
 
               {/* Experience 2 */}
               <div className="group flex flex-col sm:flex-row sm:items-start justify-between gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5">
-                <div className="text-sm text-gray-400 min-w-[100px] sm:pt-1">Jun. 2024 &ndash; Sep. 2024</div>
+                <div className="text-sm text-gray-400 min-w-[100px] sm:pt-1">Jun. 2024 &ndash; Sep. 2024, Jun. 2025 &ndash; Sep. 2025</div>
                 <div>
                   <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
                     Software Developer Intern | Rhebus, Inc.

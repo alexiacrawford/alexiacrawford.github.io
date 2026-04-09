@@ -95,6 +95,38 @@ export default function Home() {
           <h2 className="text-3xl font-semibold mb-6 text-white pl-2">Projects</h2>
           <div className="space-y-6">
             <a
+              href="https://rerackthrift.vercel.app/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGns_wUUne0AtgYBuV8k0o_XSr4cRoUxeJzCsN9RR5FK9dDZiGESkA3nEYpk4M_aem_fQaLMHzT7iRakW1kCvR4Kg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
+            >
+              <Image
+                src="/ReRack.png"
+                alt="ReRack project thumbnail"
+                width={160}
+                height={112}
+                className="w-full md:w-40 h-28 object-cover rounded-md border border-white/10"
+              />
+              <div>
+                <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
+                  ReRack
+                </h3>
+                <p className="text-gray-400 mt-1 text-sm">
+                  ReRack is a web application for discovering local second-hand fashion and resale listings, with a focus on sustainable shopping and easy browsing.
+                </p>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {['TypeScript', 'React', 'Web'].map((tech) => (
+                    <span
+                      key={tech}
+                      className="text-xs bg-white/10 text-gray-300 px-2 py-1 rounded-full"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </a>
+            <a
               href="https://github.com/alexiacrawford/Cone_Crisis"
               target="_blank"
               rel="noopener noreferrer"
@@ -102,7 +134,7 @@ export default function Home() {
             >
             <Image
               src="/ConeCrisis.png"
-              alt="Project 3 thumbnail"
+              alt="Cone Crisis project thumbnail"
               width={160}
               height={112}
               className="w-full md:w-40 h-28 object-cover rounded-md border border-white/10"
@@ -113,7 +145,7 @@ export default function Home() {
                   Cone Crisis
                 </h3>
                 <p className="text-gray-400 mt-1 text-sm">
-                  Cone Crisis is a fast-paced ice cream shop simulator developed in Unity where players manage customer orders under time pressure. Gameplay includes scooping flavors, building sundaes, and handling increasing difficulty as customer demand rises. Designed with responsive UI, custom shaders, and smooth animations to deliver an engaging experience. Features player progression, scoring, and in-game tutorials.                </p>
+                  Cone Crisis is an ice cream shop simulator developed in Unity where players manage customer orders under time pressure and scoop flavors, build sundaes, and handling increasing difficulty as customer demand rises. Features player progression, scoring, and tutorials.                </p>
                 <div className="flex flex-wrap gap-2 mt-2">
                   {['C#', 'Unity', 'ShaderLab', 'HLSL', 'Game Development'].map((tech) => (
                     <span

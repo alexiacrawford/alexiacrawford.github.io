@@ -12,7 +12,7 @@ export default function Home() {
         <div className="w-full lg:w-[40%] flex flex-col justify-start items-start pl-20 pr-10 py-10 lg:sticky lg:top-0 h-fit lg:h-screen lg:items-end lg:pr-0">
           <div className="w-full lg:w-auto lg:pl-0 lg:pr-10">
           <Image
-            src="/headshot.jpg"
+            src="/help.jpg"
             alt="Alexia Crawford"
             width={256}
             height={256}
@@ -34,7 +34,7 @@ export default function Home() {
           <section id="about">
             <h2 className="text-3xl font-semibold mb-4 text-white pl-2">About</h2>
             <p className="text-gray-400 pl-2">I am a fourth-year Computer Science student at the University of Oregon, with minors in Math and Sociology. I am passionate about web design, technology, software development, and more. I&apos;ve also worked on game projects and thoroughly enjoyed it and plan to work on more in the future.</p><br></br>
-            <p className="text-gray-400 pl-2">I&apos;m currently exploring topics in AI, digital forensics, and fashion/ second hand shopping. I am actively working on two websites, one for AI assisted fashion and another for finding second hand sales in your area. I am learning many new tools and technologies.</p><br></br>
+            <p className="text-gray-400 pl-2">I&apos;m currently exploring topics in AI, digital forensics, and fashion/ second hand shopping. I am actively working on developing an app, ReRack, that is used for finding and posting second hand sales and stores in your area.</p><br></br>
             <p className="text-gray-400 pl-2">I&apos;m currently seeking job opportunities where I can continue to grow, learn, work with professionals, and make an impact.</p>
           </section>
 
@@ -43,6 +43,21 @@ export default function Home() {
             <div className="space-y-6">
 
               {/* Experience 1 */}
+              <div className="group flex flex-col sm:flex-row sm:items-start justify-between gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5">
+                <div className="text-sm text-gray-400 min-w-[100px] sm:pt-1">Jan. 2026 (current)</div>
+                <div>
+                  <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
+                    App Developer | ReRack
+                  </h3>
+                  <ul className="text-gray-400 mt-1 text-sm list-disc list-inside space-y-1">
+                    <li>Full stack development for ReRack, an app for locating second hand sales near you.</li>
+                    <li>Lead of user experience and design and the front end functionality.</li>
+                    <li>Worked with companies and other employees to develop the best app possible.</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Experience 2 */}
               <div className="group flex flex-col sm:flex-row sm:items-start justify-between gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5">
                 <div className="text-sm text-gray-400 min-w-[100px] sm:pt-1">Jan. 2025 (current)</div>
                 <div>
@@ -57,7 +72,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Experience 2 */}
+              {/* Experience 3 */}
               <div className="group flex flex-col sm:flex-row sm:items-start justify-between gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5">
                 <div className="text-sm text-gray-400 min-w-[100px] sm:pt-1">Jun. 2024 &ndash; Sep. 2024, Jun. 2025 &ndash; Sep. 2025</div>
                 <div>

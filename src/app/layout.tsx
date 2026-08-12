@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'Alexia Crawford – Portfolio',
-  description: 'Software Developer, Tech analyst, and CS Student at University of Oregon',
+  description: 'Software Developer | B.S. in Computer Science | front-End development | Full-stack applications | IT | UI/UX design',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -21,7 +21,7 @@ export default function Home() {
           />
             <h1 className="text-5xl lg:text-6xl font-bold mb-6 text-white pl-0 lg:pl-0">Alexia Crawford</h1>
             <p className="text-lg text-gray-300 max-w-md pl-6 lg:pl-0">
-              Software Developer, Tech analyst, and CS Student at University of Oregon
+              Software Developer | B.S. in Computer Science | front-End development | Full-stack applications | IT | UI/UX design
             </p>
             <TopBar />
           </div>
@@ -96,7 +96,7 @@ export default function Home() {
           </section>
           <div className="pt-6">
           <a
-            href="/Crawford_Alexia-resume.pdf"
+            href="/AlexiaCrawford_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white font-semibold hover:text-lime-300 transition duration-200"
@@ -110,7 +110,7 @@ export default function Home() {
           <h2 className="text-3xl font-semibold mb-6 text-white pl-2">Projects</h2>
           <div className="space-y-6">
             <a
-              href="https://rerackthrift.vercel.app/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGns_wUUne0AtgYBuV8k0o_XSr4cRoUxeJzCsN9RR5FK9dDZiGESkA3nEYpk4M_aem_fQaLMHzT7iRakW1kCvR4Kg"
+              href="https://www.rerackthrift.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
@@ -176,7 +176,75 @@ export default function Home() {
           </div>
         </section>
 
-          
+          <section id="research">
+          <h2 className="text-3xl font-semibold mb-6 text-white pl-2">Research</h2>
+          <div className="space-y-6">
+            <a
+              href="/MedicalImaging_Research.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
+            >
+              <Image
+                src="/MedicalImaging.jpg"
+                alt="CT reconstruction research thumbnail"
+                width={160}
+                height={112}
+                className="w-full md:w-40 h-28 object-cover rounded-md border border-white/10"
+              />
+              <div>
+                <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
+                  CT Reconstruction Simulation
+                </h3>
+                <p className="text-gray-400 mt-1 text-sm">
+                  A medical imaging research project comparing Filtered Back Projection, Iterative Reconstruction (SIRT), and Deep Learning Reconstruction on the Shepp–Logan phantom for low-dose CT image quality.
+                </p>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {['Python', 'PyTorch', 'NumPy', 'Medical Imaging'].map((tech) => (
+                    <span
+                      key={tech}
+                      className="text-xs bg-white/10 text-gray-300 px-2 py-1 rounded-full"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </a>
+            <a
+              href="/AI_and_Mental_health.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
+            >
+              <Image
+                src="/AI_and_Mental_health.png"
+                alt="AI and Mental Health report thumbnail"
+                width={160}
+                height={112}
+                className="w-full md:w-40 h-28 object-cover rounded-md border border-white/10"
+              />
+              <div>
+                <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
+                  AI and Mental Health
+                </h3>
+                <p className="text-gray-400 mt-1 text-sm">
+                  A research report examining how artificial intelligence intersects with mental health, including opportunities, risks, and implications for technology design and care.
+                </p>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {['AI', 'Mental Health', 'Research', 'Ethics'].map((tech) => (
+                    <span
+                      key={tech}
+                      className="text-xs bg-white/10 text-gray-300 px-2 py-1 rounded-full"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
 
         </div>
       </main>

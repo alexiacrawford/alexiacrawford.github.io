@@ -33,7 +33,7 @@ export default function Home() {
           {/* Replace these with real content later */}
           <section id="about">
             <h2 className="text-3xl font-semibold mb-4 text-white pl-2">About</h2>
-            <p className="text-gray-400 pl-2">I am a recent graduate from the University of oregon with a B.S. in Computer Science and minors in Math and Sociology. I am passionate about web design, technology, software development, and more. I&apos;ve also worked on game projects and thoroughly enjoyed it and plan to work on more in the future.</p><br></br>
+            <p className="text-gray-400 pl-2">I am a recent graduate from the University of oregon with a B.S. in Computer Science and minors in both Math and Sociology. I am passionate about web design, technology, software development, and more. I&apos;ve also worked on game projects and thoroughly enjoyed it and plan to work on more in the future.</p><br></br>
             <p className="text-gray-400 pl-2">I&apos;m currently creating Readily, an app to locate books from your 'want to read' list near you. I am also actively working on ReRack, an app used for finding and posting second hand sales and stores in your area.</p><br></br>
             <p className="text-gray-400 pl-2">I&apos;m currently seeking job opportunities where I can continue to grow, learn, work with professionals, and make an impact.</p>
           </section>

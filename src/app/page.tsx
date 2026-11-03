@@ -116,6 +116,32 @@ export default function Home() {
               className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
             >
               <Image
+                src="/readily.png"
+                alt="Readily project thumbnail"
+                width={160}
+                height={112}
+                className="w-full md:w-40 h-28 object-cover rounded-md border border-white/10"
+              />
+              <div>
+                <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
+                  ReRack
+                </h3>
+                <p className="text-gray-400 mt-1 text-sm">
+                  Readily is a mobile application that allows users to upload their want to read list and find books near them, and the users can also search for any book to find them at stores and libraries in their area.
+                </p>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {['TypeScript', 'React Native', 'Supabase'].map((tech) => (
+                    <span
+                      key={tech}
+                      className="text-xs bg-white/10 text-gray-300 px-2 py-1 rounded-full"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </a>
+              <Image
                 src="/ReRack.png"
                 alt="ReRack project thumbnail"
                 width={160}

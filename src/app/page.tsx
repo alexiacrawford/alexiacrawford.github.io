@@ -125,7 +125,7 @@ export default function Home() {
           <h2 className="text-3xl font-semibold mb-6 text-white pl-2">Projects</h2>
           <div className="space-y-6">
             <a
-              href="https://www.rerackthrift.app/"
+              href="https://readilybooks.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex flex-col md:flex-row gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5"
@@ -156,6 +156,8 @@ export default function Home() {
                 </div>
               </div>
             </a>
+
+            <a>
               <Image
                 src="/ReRack.png"
                 alt="ReRack project thumbnail"

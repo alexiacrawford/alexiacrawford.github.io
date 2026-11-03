@@ -33,8 +33,8 @@ export default function Home() {
           {/* Replace these with real content later */}
           <section id="about">
             <h2 className="text-3xl font-semibold mb-4 text-white pl-2">About</h2>
-            <p className="text-gray-400 pl-2">I am a fourth-year Computer Science student at the University of Oregon, with minors in Math and Sociology. I am passionate about web design, technology, software development, and more. I&apos;ve also worked on game projects and thoroughly enjoyed it and plan to work on more in the future.</p><br></br>
-            <p className="text-gray-400 pl-2">I&apos;m currently exploring topics in AI, digital forensics, and fashion/ second hand shopping. I am actively working on developing an app, ReRack, that is used for finding and posting second hand sales and stores in your area.</p><br></br>
+            <p className="text-gray-400 pl-2">I am a recent graduate from the University of oregon with a B.S. in Computer Science and minors in both Math and Sociology. I am passionate about web design, technology, software development, and more. I&apos;ve also worked on game projects and thoroughly enjoyed it and plan to work on more in the future.</p><br></br>
+            <p className="text-gray-400 pl-2">I&apos;m currently building Readily, an app to locate books from your want to read list near you. I am also actively working on ReRack, an app used for finding and posting second hand sales and stores in your area.</p><br></br>
             <p className="text-gray-400 pl-2">I&apos;m currently seeking job opportunities where I can continue to grow, learn, work with professionals, and make an impact.</p>
           </section>
 
@@ -43,6 +43,21 @@ export default function Home() {
             <div className="space-y-6">
 
               {/* Experience 1 */}
+              <div className="group flex flex-col sm:flex-row sm:items-start justify-between gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5">
+                <div className="text-sm text-gray-400 min-w-[100px] sm:pt-1">Aug. 2026 (current)</div>
+                <div>
+                  <h3 className="text-lg font-semibold text-white group-hover:text-lime-300 transition duration-200">
+                    App Developer | Readily: Find Books Near You
+                  </h3>
+                  <ul className="text-gray-400 mt-1 text-sm list-disc list-inside space-y-1">
+                    <li>Full stack development for Readily, an app for finding books you want to read near you.</li>
+                    <li>Created and developed the full stack apllication.</li>
+                    <li>Working with Apple Developer Program to get app tested and on the app store</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Experience 2 */}
               <div className="group flex flex-col sm:flex-row sm:items-start justify-between gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5">
                 <div className="text-sm text-gray-400 min-w-[100px] sm:pt-1">Jan. 2026 (current)</div>
                 <div>
@@ -57,7 +72,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Experience 2 */}
+              {/* Experience 3 */}
               <div className="group flex flex-col sm:flex-row sm:items-start justify-between gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5">
                 <div className="text-sm text-gray-400 min-w-[100px] sm:pt-1">Jan. 2025 (current)</div>
                 <div>
@@ -72,7 +87,7 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Experience 3 */}
+              {/* Experience 4 */}
               <div className="group flex flex-col sm:flex-row sm:items-start justify-between gap-4 p-5 rounded-lg transition-colors duration-200 hover:bg-white/5">
                 <div className="text-sm text-gray-400 min-w-[100px] sm:pt-1">Jun. 2024 &ndash; Sep. 2024, Jun. 2025 &ndash; Sep. 2025</div>
                 <div>
